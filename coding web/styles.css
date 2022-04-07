@@ -1,0 +1,30 @@
+body{
+    display: grid;
+    grid-template-columns: 1fr 20px 1fr 1fr 1fr auto;
+    grid-template-rows: 200px 20px 200px 200px  200px auto;
+    
+}
+
+.navgrid{
+    border: 2px solid;
+    grid-column: 1/6;
+    grid-row: 1/1;
+}
+    
+
+.bodygrid{
+    border: 2px solid;
+    grid-column: 3/6;
+    grid-row: 3/5;
+    
+}
+.pants{
+
+grid-column: 3/3;
+grid-row: 3/3
+}
+
+.shirt{
+grid-column: 4/4;
+grid-row: 3/3;
+}
