@@ -4,15 +4,17 @@ body{
     display: grid;
     grid-template-columns:  20px 1fr 20px 1fr 1fr 1fr 20px auto;
     grid-template-rows: 200px 20px 200px 200px  200px 20px auto;
-background-color: black;
+   background-image: url(background.jpg);
+    
     
 }
 
 .navgrid{
-    border: 2px solid white;
+    border: 2px solid gray;
     background-color: white;
     grid-column: 2/7;
     grid-row: 1/1;
+    
  
 }
     
@@ -21,6 +23,9 @@ background-color: black;
 background-color: white;
 grid-column: 4/4;
 grid-row: 3/6;
+text-align: center;
+border: 2px solid gray;
+margin-right: 20px;
 
 }
 
@@ -28,11 +33,19 @@ grid-row: 3/6;
 background-color: white;
 grid-column: 5/5;
 grid-row: 3/6;
+text-align: center;
+border: 2px solid gray;
+
 }
 
 .sidegrid{
-    border: 2px solid white;
+    border: 2px solid gray;
     background-color: white;
     grid-column:2/2;
     grid-row: 3/6;
 }
+
+p{
+    font-size: 20px;
+}
+
