@@ -4,7 +4,8 @@ body{
     display: grid;
     grid-template-columns:  20px 1fr 20px 1fr 1fr 1fr 20px auto;
     grid-template-rows: 200px 20px 200px 200px  200px 20px auto;
-   background-image: url(background.jpg);
+    background-image: url(background.jpg);
+    
     
     
 }
@@ -13,8 +14,8 @@ body{
     border: 2px solid gray;
     background-color: white;
     grid-column: 2/7;
-    grid-row: 1/1;
-    
+    grid-row: 1/2;
+   
  
 }
     
@@ -48,4 +49,7 @@ border: 2px solid gray;
 p{
     font-size: 20px;
 }
+
+
+
 
