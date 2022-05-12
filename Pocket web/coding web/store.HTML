@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<head>
+    <title>MrPocket</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<script>
+
+var imgs = [ 
+      'product 1.png', 'product 2 pants png.png', 'product 3.png'
+        
+    ];
+    var counter = 0;
+    
+    function change(){
+        counter++;
+        document.getElementById('slider').src = imgs[counter];
+        
+        if(counter >= 3){
+           counter = 0;
+        }
+        
+    }
+
+
+
+</script>
+<body>
+    
+        <nav>
+            <img src="pocket V1 logo.png" width="200px" height="200px">
+
+            <a href="Index.HTML">Home</a>
+            <a href="store.HTML">Store</a>
+            <a href="contact.HTML">Contact</a>
+
+       
+        </nav>
+
+        <div class="store">
+            <img id="slider" onclick="change()" src="diavolo.jpg" >
+        </div>
+</body>
