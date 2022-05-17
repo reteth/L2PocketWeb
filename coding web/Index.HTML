@@ -3,62 +3,59 @@
 <head>
     <title>MrPocket</title>
     <link rel="stylesheet" href="styles.css">
-</head>
-<script>
 
-    var imgs = [ 
-          'product 1.png','product 1.png',  'product 2 pants png.png', 'product 3.png'
-            
+    <script>
+        var imgs = [
+            'product1.png', 'product1.png', 'product2pants.png', 'product3.png'
+
         ];
         var counter = 0;
-        
-        function change(){
+
+        function change() {
             counter++;
             document.getElementById('slider').src = imgs[counter];
-            
-            if(counter >= 3){
-               counter = 0;
+
+            if (counter >= 3) {
+                counter = 0;
             }
-            
+
         }
-    
-    
-    
     </script>
 
-
+</head>
 
 <body>
-    
-        <nav>
-            <img src="pocket V1 logo.png" width="200px" height="200px">
+
+    <nav>
+        <img src="pocketV1logo.png" class="logo1" alt="supergay">
 
 
-           
 
-            <a href="Index.HTML">Home</a>
-            <a href="store.HTML">Store</a>
-            <a href="contact.HTML">Contact</a>
 
-            
-       
-        </nav>
+        <a href="Index.HTML">Home</a>
+        <a href="store.HTML">Store</a>
+        <a href="contact.HTML">Contact</a>
 
-    
+
+
+    </nav>
+
+
 
 
 
 
     <div class="pants">
-        <img id="slider" onclick="change()" src='product 1.png' width="200px" >
+        <img id="slider" onclick="change()" src='product1.png' class="slider1" alt="megagay">
         <h2>Preview of store items</h2>
         <h1>Click picture to change item</h1>
-        
+
     </div>
-    
+
 
     <div class="sidegrid">
-        <p>Mr Pocket, a company developed to solve the daily problam of not storage on person. Our clothing will add more room for all your personal items</p>
+        <p>Mr Pocket, a company developed to solve the daily problam of not storage on person. Our clothing will add
+            more room for all your personal items</p>
     </div>
 
 
