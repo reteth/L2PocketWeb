@@ -35,7 +35,7 @@ body {
 }
 
 p {
-    font-size: 40px;
+    font-size: 2vw;
 }
 
 nav {
@@ -87,7 +87,7 @@ nav a:hover {
     border: 2px solid gray;
     grid-column: 4/7;
     grid-row: 3/6;
-    font-size: 30px;
+    font-size: 3vh;
 }
 
 .logo1 {
